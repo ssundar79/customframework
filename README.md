@@ -4,12 +4,9 @@ This is custom project to build  own dependency injection framework using Java.
 
 It suitable for **constructor** and **field** injection.
 
-- You can find the framework itself under "com.custom.framework" package.
-- You can find simple calculator application under tests.
 
 
-
-Design considerations:
+#Design considerations:
 
 The two main classes are **CustomModule** and **CustomFramework**.
  
@@ -18,17 +15,17 @@ The two main classes are **CustomModule** and **CustomFramework**.
 * It checks that the constructor and fields are annotated with **@Injection** annotation.
 * **@Injection** annotation is used to perform the Dependency Injection
 
-Limitations:
+#Limitations:
 Add simple calculator service for add, substract, multiple operation, can be extended to all Math operation.
 
-Usage Guide:
+#Usage Guide:
 
 To Build and Run test
 
  cd Custom-Dependency-Injection-Framework
  mvn clean install
  
-How to Customise:
+#How to Customise:
 ##### 1. You have to define how you want to map interfaces to their implementations.
 
 ```java
